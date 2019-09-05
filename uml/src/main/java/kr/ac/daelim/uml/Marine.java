@@ -1,16 +1,14 @@
 package kr.ac.daelim.uml;
 
-public class Marine {
-	public String name;
-	public int health;
+public class Marine extends Unit {
 	public int attackPower;
 	
-	public void Move()
+	public void move()
 	{
 		System.out.println("마린이 움직인다");
 	}
 	
-	public void Attack()
+	public void attack()
 	{
 		System.out.println("마린이 공격한다");
 	}

@@ -1,8 +1,8 @@
 package kr.ac.daelim.uml;
 
-public class Medic 
+public class Medic extends Unit 
 {
-	public void Move()
+	public void move()
 	{
 		System.out.println("메딕이 움직인다");
 	}
