@@ -1804,7 +1804,7 @@
 											"top": 717,
 											"width": 167,
 											"height": 13,
-											"text": "+Attack(ref Charator)",
+											"text": "+attack(ref Charator)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2473,7 +2473,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFtSCOf9WAdfA8="
 							},
-							"name": "Attack",
+							"name": "attack",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -2481,8 +2481,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFtSCPyvmGJDsA="
 									},
-									"name": "ref Charator",
-									"type": ""
+									"name": "ref Charator"
 								}
 							]
 						}
