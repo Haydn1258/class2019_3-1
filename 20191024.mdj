@@ -7566,6 +7566,19 @@
 							"width": 88,
 							"height": 40,
 							"text": "timeout"
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAFt/KuZrLqbLzc=",
+							"_parent": {
+								"$ref": "AAAAAAFt/C/kHI/BF30="
+							},
+							"font": "Arial;13;0",
+							"left": 432,
+							"top": 1960,
+							"width": 161,
+							"height": 38,
+							"text": "yield or schedule swap"
 						}
 					]
 				}
@@ -8561,6 +8574,14 @@
 							"_parent": {
 								"$ref": "AAAAAAFt/C/kHI/AhqU="
 							}
+						},
+						{
+							"_type": "UMLPseudostate",
+							"_id": "AAAAAAFt/KwAfbqgVTQ=",
+							"_parent": {
+								"$ref": "AAAAAAFt/C/kHI/AhqU="
+							},
+							"kind": "terminate"
 						}
 					],
 					"transitions": [
